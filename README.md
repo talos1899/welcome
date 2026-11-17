@@ -2,7 +2,7 @@
 
 一个单页作品集：流场粒子背景、玻璃拟态卡片、3D 倾斜与跟随光泽。
 
-**在线访问**：<https://talos1899.github.io/portfolio/>
+**在线访问**：<https://talos1899.github.io/welcome/>
 
 ## 项目
 
@@ -16,7 +16,7 @@
 ## 结构
 
 ```text
-portfolio/
+welcome/
 ├── index.html
 ├── .nojekyll
 └── assets/
