@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>talos1899 · 项目作品集</title>
-<meta name="description" content="talos1899 的项目作品集：交互式相机拆解、WebGL 流体模拟、小红书 AI 信息源与 DSH 通知插件。">
+<meta name="description" content="talos1899 的项目作品集：交互式相机拆解、WebGL 流体模拟、小红书 AI 信息源、DSH 通知插件与本地 PDF 图片编辑器。">
 <meta name="theme-color" content="#0b0d10">
 <meta property="og:type" content="website">
 <meta property="og:title" content="talos1899 · 项目作品集">
-<meta property="og:description" content="交互式拆解、流场模拟、AI 信息源与开发工具。">
-<meta property="og:image" content="https://talos1899.github.io/welcome/assets/flowfield.png">
+<meta property="og:description" content="交互式拆解、流场模拟、AI 信息源、开发工具与本地 PDF 编辑。">
+<meta property="og:image" content="https://talos1899.github.io/welcome/assets/qingye-pdf.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230b0d10'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%236ee7b7' stroke-width='2.5'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%236ee7b7'/%3E%3C/svg%3E">
 <style>
   :root{
@@ -224,7 +224,7 @@
   <p class="kicker reveal">Portfolio</p>
   <h1 class="reveal">做点<span class="grad">好玩</span><br>的东西。</h1>
   <p class="sub reveal">
-    交互式拆解、流场模拟、AI 信息源与开发工具。
+    交互式拆解、流场模拟、AI 信息源与本地 PDF 工具。
     每个项目都是一个可以点开把玩的实验。
   </p>
   <div class="hero-actions reveal">
@@ -248,6 +248,15 @@
 
 <script>
 const projects = [
+  {
+    title:"轻页 PDF",
+    desc:"不登录、不上传的本地 PDF 图片编辑器：拖入图片，缩放旋转、调整透明度与图层，直接导出原页面。",
+    tags:["PDF","Canvas","离线工具"],
+    demo:"https://talos1899.github.io/qingye-pdf/",
+    repo:"https://github.com/talos1899/qingye-pdf",
+    cover:"./assets/qingye-pdf.png",
+    accent:"240,112,82"
+  },
   {
     title:"canon-talos",
     desc:"把 1976 年的 35mm 单反相机搬进浏览器，逐层拆解、自由旋转，看清每一颗螺丝。",
